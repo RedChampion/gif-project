@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giphy buttons</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+        <div class="container">
+                <div class="jumbotron">
+                        <h1 class="display-4"><h1>Gif Search</h1></h1>
+                        <p class="lead"></p>
+                        <hr class="my-4">                      
+                
+            
+                <!-- Rendered Buttons will get Dumped Here  -->
+                <div id="buttons-view"></div>
+            <br>
+                <form id="gif-form">
+                  <label for="gif-input">Gif Search</label>
+                  <input type="text" id="gif-input">
+                  <br>
+            
+                  <!-- Button triggers new movie to be added -->
+                  <input id="add-gif" type="submit" value="Search a gif!">
+                </form>
+            </div>
+    <div id=gif-view></div>
+    <script src="./assets/java.js"></script>
+</body>
+</html>
